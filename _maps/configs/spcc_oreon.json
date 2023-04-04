@@ -1,0 +1,40 @@
+{
+	"$schema": "https://raw.githubusercontent.com/ZetaSingularity/ZetaSpaces/master/_maps/ship_config_schema.json",
+	"map_name": "Oreon-class Destroyer",
+	"prefix": "SPCC",
+	"cost": 0,
+	"namelists": [
+		"GENERAL",
+		"SPACE",
+		"SPCC",
+		"DESTROYER"
+	],
+	"map_short_name": "Oreon",
+	"map_path": "_maps/shuttles/shiptest/nanotrasen_delta.dmm",
+	"job_slots": {
+        "Captain": {
+            "outfit": "/datum/outfit/job/captain/solgov",
+            "officer": true,
+            "slots": 1
+        },
+		"Roboticist": 2,
+        "Machinist": {
+            "outfit": "/datum/outfit/job/engineer/solgov",
+            "slots": 2
+        },
+		"Assistant": 2,
+        "Marine": {
+            "outfit": "/datum/outfit/job/security/solgov/elite",
+            "slots": 3
+        },
+        "Field Engineer": {
+            "outfit": "/datum/outfit/job/miner/solgov",
+            "slots": 3
+        },
+        "Naval Surgeon": {
+            "outfit": "/datum/outfit/job/doctor/solgov",
+            "slots": 2
+        }
+	},
+	"enabled": true
+}
