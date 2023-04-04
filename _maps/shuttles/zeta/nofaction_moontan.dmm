@@ -366,7 +366,6 @@
 /turf/open/floor/plasteel/patterned/dirty,
 /area/ship/engineering)
 "mQ" = (
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
 /obj/structure/table,
 /obj/item/storage/toolbox/mechanical{
 	pixel_y = 4
@@ -466,8 +465,8 @@
 	dir = 5
 	},
 /obj/structure/catwalk/over/plated_catwalk/dark,
-/obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden/layer4{
-	dir = 8
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
+	dir = 5
 	},
 /turf/open/floor/plating,
 /area/ship/engineering)
@@ -574,7 +573,6 @@
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
 	dir = 6
 	},
-/obj/structure/catwalk/over/plated_catwalk/dark,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
 	dir = 6
 	},
@@ -585,7 +583,7 @@
 /obj/machinery/power/terminal{
 	dir = 1
 	},
-/turf/open/floor/plasteel/patterned/dirty,
+/turf/open/floor/plating,
 /area/ship/engineering)
 "vr" = (
 /obj/effect/turf_decal/corner/transparent/yellow/border{
@@ -1107,12 +1105,6 @@
 "Oj" = (
 /turf/closed/wall/r_wall,
 /area/ship/medical)
-"On" = (
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
-	dir = 8
-	},
-/turf/closed/wall/r_wall,
-/area/ship/engineering)
 "Oo" = (
 /obj/structure/cable,
 /obj/machinery/power/apc/auto_name/south,
@@ -1200,12 +1192,6 @@
 /obj/machinery/light,
 /turf/open/floor/plasteel/white,
 /area/ship/science)
-"Qq" = (
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
-	dir = 9
-	},
-/turf/closed/wall/r_wall,
-/area/ship/engineering)
 "QT" = (
 /obj/effect/turf_decal/corner/transparent/purple/border{
 	dir = 1
@@ -1464,12 +1450,12 @@
 /obj/structure/cable{
 	icon_state = "1-2"
 	},
-/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
-	dir = 9
-	},
 /obj/structure/catwalk/over/plated_catwalk/dark,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
 	dir = 9
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
+	dir = 5
 	},
 /turf/open/floor/plating,
 /area/ship/medical)
@@ -1546,7 +1532,7 @@ iP
 Vu
 kl
 lB
-On
+lB
 "}
 (4,1,1) = {"
 lB
@@ -1561,7 +1547,7 @@ hn
 aw
 rh
 mQ
-Qq
+lB
 "}
 (5,1,1) = {"
 lB
