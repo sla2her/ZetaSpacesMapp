@@ -419,12 +419,10 @@
 /turf/open/floor/wood/mahogany,
 /area/ship/crew/dorm)
 "dU" = (
-/obj/machinery/power/apc/auto_name/north{
-	pixel_y = 29
-	},
 /obj/structure/cable{
 	icon_state = "0-2"
 	},
+/obj/machinery/power/apc/auto_name/north,
 /turf/open/floor/circuit/green/anim,
 /area/ship/maintenance/port)
 "dW" = (
@@ -475,9 +473,7 @@
 	dir = 4
 	},
 /obj/structure/cable,
-/obj/machinery/power/apc/auto_name/south{
-	pixel_y = -28
-	},
+/obj/machinery/power/apc/auto_name/south,
 /turf/open/floor/plasteel/dark,
 /area/ship/crew/canteen/kitchen)
 "eo" = (
@@ -562,9 +558,7 @@
 /obj/structure/cable{
 	icon_state = "0-8"
 	},
-/obj/machinery/power/apc/auto_name/east{
-	pixel_x = 27
-	},
+/obj/machinery/power/apc/auto_name/east,
 /turf/open/floor/plasteel/tech,
 /area/ship/cargo)
 "fx" = (
@@ -1346,6 +1340,10 @@
 /obj/machinery/light{
 	dir = 1
 	},
+/obj/machinery/button/door{
+	pixel_y = 33;
+	id = "robodoor"
+	},
 /turf/open/floor/circuit/green,
 /area/ship/science/storage)
 "nz" = (
@@ -2101,6 +2099,12 @@
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
 	dir = 4
 	},
+/obj/machinery/button/door{
+	id = "shutters";
+	name = "Shatters Block";
+	pixel_y = 33;
+	req_access_txt = "20"
+	},
 /turf/open/floor/plasteel/stairs/left{
 	dir = 8
 	},
@@ -2403,9 +2407,7 @@
 /obj/structure/cable{
 	icon_state = "0-8"
 	},
-/obj/machinery/power/apc/auto_name/east{
-	pixel_x = 27
-	},
+/obj/machinery/power/apc/auto_name/east,
 /turf/open/floor/engine,
 /area/ship/engineering/atmospherics)
 "yb" = (
@@ -2558,7 +2560,8 @@
 	pixel_y = 8;
 	pixel_x = -6;
 	id = "blockdoors";
-	name = "Bridge Block Doors"
+	name = "Bridge Block Doors";
+	req_access_txt = "20"
 	},
 /obj/machinery/button/door{
 	pixel_y = 8;
@@ -2679,7 +2682,7 @@
 /area/ship/crew/dorm)
 "Bg" = (
 /obj/machinery/door/poddoor/shutters/preopen{
-	id = "nemowindows"
+	id = "robodoor"
 	},
 /obj/machinery/door/firedoor/border_only{
 	dir = 1
@@ -3861,9 +3864,7 @@
 /area/ship/bridge)
 "Ns" = (
 /obj/structure/cable,
-/obj/machinery/power/apc/auto_name/south{
-	pixel_y = -32
-	},
+/obj/machinery/power/apc/auto_name/south,
 /turf/open/floor/plasteel/dark,
 /area/ship/science/storage)
 "Nt" = (
@@ -3956,10 +3957,8 @@
 /turf/open/floor/plasteel/white,
 /area/ship/medical/surgery)
 "OA" = (
-/obj/machinery/power/apc/auto_name/south{
-	pixel_y = -32
-	},
 /obj/structure/cable,
+/obj/machinery/power/apc/auto_name/south,
 /turf/open/floor/circuit/green/anim,
 /area/ship/maintenance/port)
 "OE" = (
@@ -4630,9 +4629,7 @@
 /obj/structure/cable{
 	icon_state = "0-8"
 	},
-/obj/machinery/power/apc/auto_name/east{
-	pixel_x = 27
-	},
+/obj/machinery/power/apc/auto_name/east,
 /turf/open/floor/plasteel/tech,
 /area/ship/cargo)
 "VJ" = (
@@ -4709,12 +4706,6 @@
 	},
 /obj/machinery/light{
 	dir = 8
-	},
-/obj/machinery/button/door{
-	pixel_y = 9;
-	pixel_x = -24;
-	id = "shutters";
-	name = "Shatters Block"
 	},
 /turf/open/floor/plasteel/dark,
 /area/ship/security/armory)
@@ -4942,7 +4933,6 @@
 /area/ship/engineering/atmospherics)
 "YF" = (
 /obj/structure/table/wood,
-/obj/structure/table/wood,
 /obj/machinery/chem_dispenser/drinks/beer{
 	dir = 8
 	},
@@ -5087,14 +5077,8 @@
 /turf/open/floor/plasteel/dark,
 /area/ship/hallway/central)
 "ZW" = (
-/obj/item/radio/intercom{
-	dir = 1;
-	pixel_y = -22
-	},
 /obj/structure/cable,
-/obj/machinery/power/apc/auto_name/south{
-	pixel_y = -35
-	},
+/obj/machinery/power/apc/auto_name/south,
 /turf/open/floor/plasteel/dark,
 /area/ship/hallway/central)
 
