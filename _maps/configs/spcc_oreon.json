@@ -4,10 +4,7 @@
 	"prefix": "SPCC",
 	"cost": 0,
 	"namelists": [
-		"GENERAL",
-		"SPACE",
-		"SPCC",
-		"DESTROYER"
+		"GENERAL"
 	],
 	"map_short_name": "Oreon",
 	"map_path": "_maps/shuttles/shiptest/nanotrasen_delta.dmm",
