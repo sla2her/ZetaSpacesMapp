@@ -6,7 +6,7 @@
 	"prefix": "ISV",
 	"namelists": ["GENERAL", "SPACE"],
 	"roundstart": true,
-	"cost": 100,
+	"cost": 0,
 	"job_slots": {
 		"Captain": {
 			"outfit": "/datum/outfit/job/captain/western",

@@ -3,7 +3,7 @@
 	"map_name": "Twinkleshine-class Battle Cruiser",
 	"map_short_name": "Twinkleshine-class",
 	"map_path": "_maps/shuttles/shiptest/syndicate_twinkleshine.dmm",
-	"cost": 1000,
+	"cost": 0,
 	"job_slots": {
 		"Captain": {
 			"outfit": "/datum/outfit/syndicate_empty/sbc/assault/captain",
