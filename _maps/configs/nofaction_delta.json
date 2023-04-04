@@ -1,0 +1,29 @@
+{
+	"$schema": "https://raw.githubusercontent.com/ZetaSingularity/ZetaSpaces/master/_maps/ship_config_schema.json",
+	"map_name": "Used Traveller-class Frigate",
+	"prefix": "SV",
+	"cost": 0,
+	"namelists": [
+		"GENERAL",
+		"SPACE"
+	],
+	"map_short_name": "Traveller-class",
+	"map_path": "_maps/shuttles/zeta/nofaction_moontan.dmm",
+	"job_slots": {
+		"Captain": {
+			"outfit": "/datum/outfit/job/captain/nt",
+			"officer": true,
+			"slots": 1
+		},
+		"Roboticist": 1,
+		"Scientist": 1,
+		"Engineer": {
+			"outfit": "/datum/outfit/job/engineer/nt",
+			"slots": 1
+		},
+		"Medical Doctor": 1,
+		"Chemist": 1,
+		"Assistant": 2
+	},
+	"enabled": true
+}
