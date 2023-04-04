@@ -83,17 +83,7 @@
 
 	var/mob/user = usr
 
-	var/datum/DBQuery/query_get_metacoins = SSdbcore.NewQuery(
-		"SELECT metacoins FROM [format_table_name("player")] WHERE ckey = :ckey",
-		list("ckey" = ckey)
-	)
-	var/mc_count = 0
-	if(query_get_metacoins.warn_execute())
-		if(query_get_metacoins.NextRow())
-			mc_count = query_get_metacoins.item[1]
-
-	qdel(query_get_metacoins)
-	mc_count = text2num(mc_count)
+	var/mc_count = text2num(get_metabalance())
 
 	if(!(isliving(user)))
 		to_chat(src, "<span class='warning'>You should be a human.</span>")
