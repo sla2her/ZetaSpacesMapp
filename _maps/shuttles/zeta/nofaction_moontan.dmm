@@ -134,9 +134,6 @@
 /obj/structure/cable{
 	icon_state = "0-2"
 	},
-/obj/machinery/power/terminal{
-	dir = 1
-	},
 /obj/machinery/power/apc/auto_name/north,
 /turf/open/floor/plasteel/dark,
 /area/ship/bridge)
@@ -241,9 +238,6 @@
 /obj/structure/catwalk/over/plated_catwalk/dark,
 /obj/structure/cable{
 	icon_state = "2-8"
-	},
-/obj/machinery/power/terminal{
-	dir = 1
 	},
 /obj/structure/cable{
 	icon_state = "0-2"
@@ -434,9 +428,6 @@
 "oJ" = (
 /obj/structure/cable{
 	icon_state = "0-2"
-	},
-/obj/machinery/power/terminal{
-	dir = 1
 	},
 /obj/machinery/power/apc/auto_name/north,
 /turf/open/floor/plasteel/patterned,
@@ -1124,7 +1115,6 @@
 /area/ship/engineering)
 "Oo" = (
 /obj/structure/cable,
-/obj/machinery/power/terminal,
 /obj/machinery/power/apc/auto_name/south,
 /turf/open/floor/plasteel/white,
 /area/ship/medical)
@@ -1505,9 +1495,6 @@
 "ZD" = (
 /obj/structure/cable{
 	icon_state = "0-4"
-	},
-/obj/machinery/power/terminal{
-	dir = 8
 	},
 /obj/machinery/power/apc/auto_name/west,
 /obj/effect/turf_decal/corner/transparent/yellow/border{
