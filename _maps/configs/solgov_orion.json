@@ -1,13 +1,13 @@
 {
 	"$schema": "https://raw.githubusercontent.com/ZetaSingularity/ZetaSpaces/master/_maps/ship_config_schema.json",
-	"map_name": "Oreon-class Destroyer",
-	"prefix": "SPCC",
+	"map_name": "Orion-class Destroyer",
+	"prefix": "SG",
 	"cost": 0,
 	"namelists": [
 		"GENERAL"
 	],
-	"map_short_name": "Oreon",
-	"map_path": "_maps/shuttles/shiptest/nanotrasen_delta.dmm",
+	"map_short_name": "Orion",
+	"map_path": "_maps/shuttles/zeta/solgov_orion.dmm",
 	"job_slots": {
         "Captain": {
             "outfit": "/datum/outfit/job/captain/solgov",
