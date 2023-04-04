@@ -68,7 +68,7 @@
 /obj/item/metacoin/attack_self(mob/user)
 	//inc_metabalance(mc_contains, reason="You used Zeta-coins.")
 	var/datum/DBQuery/query_inc_metacoins = SSdbcore.NewQuery(
-		"UPDATE ["ss13_player"] SET metacoins = metacoins + :mc_count WHERE ckey = :ckey",
+		"UPDATE [format_table_name("player")] SET metacoins = metacoins + :mc_count WHERE ckey = :ckey",
 		list("mc_count" = mc_contains, "ckey" = user.ckey)
 	)
 	query_inc_metacoins.warn_execute()
