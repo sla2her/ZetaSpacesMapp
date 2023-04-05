@@ -250,7 +250,7 @@
 /area/ship/crew/canteen/kitchen)
 "cG" = (
 /obj/machinery/door/poddoor{
-	id = "shutters"s
+	id = "shutters"
 	},
 /obj/effect/spawner/structure/window/plasma/reinforced/plastitanium,
 /turf/open/floor/plating,
