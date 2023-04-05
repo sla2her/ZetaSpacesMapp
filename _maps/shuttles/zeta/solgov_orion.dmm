@@ -1929,11 +1929,11 @@
 /turf/open/floor/plasteel/dark,
 /area/ship/crew/canteen/kitchen)
 "sn" = (
-/obj/structure/windoor_assembly{
-	dir = 4
-	},
 /obj/structure/cable,
 /obj/machinery/power/apc/auto_name/south,
+/obj/machinery/door/window{
+	dir = 4
+	},
 /turf/open/floor/plasteel/dark,
 /area/ship/crew/canteen/kitchen)
 "so" = (
@@ -5140,10 +5140,8 @@
 /area/ship/crew/dorm)
 "Si" = (
 /obj/structure/table/reinforced,
-/obj/structure/windoor_assembly{
-	dir = 2
-	},
 /obj/machinery/door/firedoor/border_only,
+/obj/machinery/door/window,
 /turf/open/floor/plasteel/white,
 /area/ship/medical/surgery)
 "Sl" = (
