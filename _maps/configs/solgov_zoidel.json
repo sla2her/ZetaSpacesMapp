@@ -1,0 +1,48 @@
+{
+	"$schema": "https://raw.githubusercontent.com/ZetaSingularity/ZetaSpaces/master/_maps/ship_config_schema.json",
+	"map_name": "Zoidel-class Amphibious aircraft carrier",
+	"prefix": "SG",
+	"namelists": ["GENERAL"],
+	"map_short_name": "Zoidel",
+	"map_path": "_maps/shuttles/zeta/solgov_zoidel.dmm",
+	"cost": 0,
+	"job_slots": {
+		"Captain": {
+            "outfit": "/datum/outfit/job/captain/solgov",
+            "officer": true,
+            "slots": 1
+        },
+		"Executive Officer": {
+            "outfit": "/datum/outfit/job/head_of_personnel/solgov",
+            "officer": true,
+            "slots": 1
+        },
+		"Scientist": 2,
+		"Roboticist": 1,
+		"Naval Surgeon": {
+            "outfit": "/datum/outfit/job/doctor/solgov",
+            "slots": 2
+        },
+		"Head of Security": 1,
+		"Marine": {
+            "outfit": "/datum/outfit/job/security/solgov/elite",
+            "slots": 5
+        },
+		"Machinist": {
+            "outfit": "/datum/outfit/job/engineer/solgov",
+            "slots": 2
+        },
+		"Atmospheric Technician": 2,
+		"Field Engineer": {
+            "outfit": "/datum/outfit/job/miner/solgov",
+            "slots": 5
+        },
+		"Bartender": 1,
+		"Cook": 1,
+		"Sailor": {
+            "outfit": "/datum/outfit/job/assistant/solgov",
+            "slots": 4
+        }
+	},
+	"enabled": true
+}
