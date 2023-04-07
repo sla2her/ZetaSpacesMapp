@@ -631,7 +631,6 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
-/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
 /turf/open/floor/plasteel/dark,
 /area/ship/security)
 "dB" = (
@@ -804,6 +803,9 @@
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
 	dir = 4
 	},
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
 /turf/open/floor/plasteel/white,
 /area/ship/science)
 "eh" = (
@@ -963,6 +965,9 @@
 "eW" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
 	dir = 4
+	},
+/obj/structure/cable{
+	icon_state = "4-8"
 	},
 /turf/open/floor/plasteel/white,
 /area/ship/science)
@@ -1349,9 +1354,6 @@
 	req_access_txt = "16"
 	},
 /obj/effect/mapping_helpers/airlock/cyclelink_helper{
-	dir = 8
-	},
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
 	dir = 8
 	},
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
@@ -3233,6 +3235,13 @@
 	},
 /turf/open/floor/carpet,
 /area/ship/bridge)
+"qr" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/structure/cable{
+	icon_state = "2-4"
+	},
+/turf/open/floor/plasteel/white,
+/area/ship/science)
 "qs" = (
 /obj/structure/closet/firecloset/wall{
 	pixel_y = 30
@@ -3755,6 +3764,9 @@
 	pixel_x = 5
 	},
 /obj/item/radio,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
+	dir = 4
+	},
 /turf/open/floor/plasteel/dark,
 /area/ship/security)
 "sC" = (
@@ -4726,6 +4738,22 @@
 	},
 /turf/open/floor/plasteel/white,
 /area/ship/medical)
+"wF" = (
+/obj/structure/disposalpipe/segment,
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden/layer4{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer2{
+	dir = 4
+	},
+/obj/structure/cable{
+	icon_state = "1-4"
+	},
+/turf/open/floor/plasteel/white,
+/area/ship/science)
 "wH" = (
 /obj/machinery/mecha_part_fabricator{
 	dir = 8
@@ -4965,6 +4993,9 @@
 "xN" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer4{
 	dir = 8
+	},
+/obj/structure/cable{
+	icon_state = "4-8"
 	},
 /turf/open/floor/plasteel/white,
 /area/ship/science)
@@ -5439,7 +5470,6 @@
 	dir = 5
 	},
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
-/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
 /obj/effect/decal/cleanable/oil,
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
@@ -5634,6 +5664,9 @@
 /obj/item/kirbyplants/random,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
 	dir = 4
+	},
+/obj/structure/cable{
+	icon_state = "4-8"
 	},
 /turf/open/floor/plasteel/white,
 /area/ship/science)
@@ -7045,6 +7078,9 @@
 "GS" = (
 /obj/structure/chair/office/light{
 	dir = 4
+	},
+/obj/structure/cable{
+	icon_state = "1-8"
 	},
 /turf/open/floor/plasteel/white,
 /area/ship/science)
@@ -11131,6 +11167,13 @@
 	},
 /turf/open/floor/plasteel/white,
 /area/ship/crew/canteen/kitchen)
+"Yr" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/turf/open/floor/plasteel/white,
+/area/ship/science)
 "Ys" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 6
@@ -11211,6 +11254,9 @@
 /area/ship/crew/office)
 "YT" = (
 /obj/machinery/rnd/production/protolathe/department/science,
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
 /turf/open/floor/plasteel/white,
 /area/ship/science)
 "YU" = (
@@ -11417,6 +11463,9 @@
 	light_color = "#c1caff"
 	},
 /obj/machinery/power/apc/auto_name/east,
+/obj/structure/cable{
+	icon_state = "0-8"
+	},
 /turf/open/floor/plasteel/white,
 /area/ship/science)
 "ZM" = (
@@ -13321,7 +13370,7 @@ SX
 Zt
 Dv
 px
-Dv
+wF
 xm
 iN
 Zt
@@ -13667,8 +13716,8 @@ Kn
 mR
 qd
 uv
-zu
-zu
+qr
+Yr
 GS
 uO
 FJ
