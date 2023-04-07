@@ -1,0 +1,21 @@
+{
+	"$schema": "https://raw.githubusercontent.com/ZetaSingularity/ZetaSpaces/master/_maps/ship_config_schema.json",
+	"map_name": "Buggy-class Type D Transport shuttle",
+	"prefix": "SSV",
+	"namelists": ["GENERAL", "MERCANTILE", "WEAPONS"],
+	"map_short_name": "Buggy (D)",
+	"map_path": "_maps/shuttles/zeta/syndicate_buggy.dmm",
+	"cost": 0,
+	"job_slots": {
+		"Captain": {
+			"outfit": "/datum/outfit/job/captain/syndicate/gorlex",
+			"officer": true,
+			"slots": 1
+		},
+		"Security Officer": {
+			"outfit": "/datum/outfit/job/security/syndicate/gorlex",
+			"slots": 1
+		}
+	},
+	"enabled": true
+}
