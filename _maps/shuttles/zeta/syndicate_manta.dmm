@@ -106,7 +106,7 @@
 	pixel_y = 35;
 	pixel_x = -11;
 	id = "bridge_shutter";
-	name = ""Bridge Shutter""
+	name = "Bridge Shutter"
 	},
 /obj/machinery/button/door{
 	pixel_y = 35;
