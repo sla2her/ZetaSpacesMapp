@@ -1,0 +1,49 @@
+{
+	"$schema": "https://raw.githubusercontent.com/ZetaSingularity/ZetaSpaces/master/_maps/ship_config_schema.json",
+	"map_name": "Manta-class Super-Heavy Battle Ship",
+	"prefix": "SSV",
+	"namelists": ["GENERAL"],
+	"map_short_name": "Manta",
+	"map_path": "_maps/shuttles/zeta/syndicate_manta.dmm",
+	"cost": 0,
+	"job_slots": {
+		"Captain": {
+            "outfit": "/datum/outfit/syndicate_empty/sbc/assault/captain",
+            "officer": true,
+            "slots": 1
+        },
+		"Deck Assistant": {
+            "outfit": "/datum/outfit/syndicate_empty/sbc",
+            "slots": 1
+        },
+		"Head of Security": 2,
+		"Medic": {
+            "outfit": "/datum/outfit/syndicate_empty/sbc/med",
+            "slots": 2
+        },
+		"Junior Agent": {
+			"outfit": "/datum/outfit/job/assistant/syndicate/gorlex",
+			"slots": 2
+		},
+		"Wrecker": {
+			"outfit": "/datum/outfit/job/miner/syndicate",
+			"slots": 2
+		},
+		"Scientist": 1,
+		"Roboticist": 1,
+		 "Mechanic": {
+            "outfit": "/datum/outfit/syndicate_empty/sbc/engi",
+            "slots": 2
+        },
+		"Atmospheric Technician": {
+			"outfit": "/datum/outfit/syndicate_empty/sbc/engi",
+			"slots": 1
+		},
+		"Operative": {
+			"outfit": "/datum/outfit/job/security/corporate",
+			"slots": 6
+		}
+		
+	},
+	"enabled": true
+}

@@ -6434,6 +6434,15 @@
 /obj/structure/window/reinforced,
 /turf/open/floor/mineral/plastitanium,
 /area/ship/hallway/fore)
+"Ub" = (
+/obj/docking_port/mobile{
+	launch_status = 0;
+	name = "Manta";
+	preferred_direction = 4;
+	port_direction = 8
+	},
+/turf/template_noop,
+/area/template_noop)
 "Uc" = (
 /obj/structure/cable{
 	icon_state = "1-4"
@@ -8482,7 +8491,7 @@ UV
 UV
 UV
 UV
-UV
+Ub
 "}
 (22,1,1) = {"
 In
