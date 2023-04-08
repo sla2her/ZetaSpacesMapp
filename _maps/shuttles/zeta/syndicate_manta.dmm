@@ -106,7 +106,7 @@
 	pixel_y = 35;
 	pixel_x = -11;
 	id = "bridge_shutter";
-	name = ""Bridge Shutter""
+	name = "Bridge Shutter"
 	},
 /obj/machinery/button/door{
 	pixel_y = 35;
@@ -494,15 +494,6 @@
 /obj/machinery/rnd/production/protolathe/department/science,
 /turf/open/floor/plasteel/rockvault,
 /area/ship/science)
-"dq" = (
-/obj/docking_port/mobile{
-	launch_status = 0;
-	name = "Manta";
-	preferred_direction = 4;
-	port_direction = 8
-	},
-/turf/template_noop,
-/area/template_noop)
 "dv" = (
 /obj/structure/closet/syndicate/personal{
 	req_access_txt = "58"
@@ -4639,6 +4630,15 @@
 /obj/machinery/atmospherics/pipe/simple/orange/visible,
 /turf/open/floor/plating,
 /area/ship/engineering)
+"Gm" = (
+/obj/docking_port/mobile{
+	launch_status = 0;
+	name = "Manta";
+	preferred_direction = 4;
+	port_direction = 8
+	},
+/turf/template_noop,
+/area/template_noop)
 "Gp" = (
 /obj/machinery/vending/cola/random,
 /turf/open/floor/mineral/plastitanium/red,
@@ -4720,13 +4720,6 @@
 "GP" = (
 /turf/open/floor/circuit/red/anim,
 /area/ship/science/robotics)
-"GS" = (
-/obj/machinery/door/airlock/hatch,
-/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
-	dir = 8
-	},
-/turf/open/floor/mineral/plastitanium,
-/area/ship/hallway)
 "GV" = (
 /obj/structure/window/plasma/reinforced,
 /obj/machinery/atmospherics/components/unary/shuttle/heater{
@@ -5691,6 +5684,21 @@
 	},
 /turf/open/floor/mineral/plastitanium,
 /area/ship/cargo)
+"OS" = (
+/obj/structure/cable{
+	icon_state = "0-1"
+	},
+/obj/machinery/door/poddoor{
+	id = "thruster_shutters"
+	},
+/obj/machinery/power/shuttle/engine/fueled/plasma{
+	dir = 1
+	},
+/obj/machinery/atmospherics/components/unary/outlet_injector/on/layer4{
+	dir = 1
+	},
+/turf/open/floor/plating,
+/area/ship/engineering/engine)
 "OV" = (
 /obj/structure/window/reinforced/tinted/frosted{
 	dir = 1
@@ -6115,6 +6123,13 @@
 /obj/item/reagent_containers/hypospray/medipen/stimulants,
 /turf/open/floor/mineral/plastitanium,
 /area/ship/cargo/starboard)
+"RO" = (
+/obj/machinery/door/airlock/hatch,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
+	dir = 8
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/ship/hallway)
 "RP" = (
 /turf/closed/wall/mineral/plastitanium/nodiagonal,
 /area/ship/hallway/port)
@@ -6317,21 +6332,6 @@
 	},
 /turf/open/floor/mineral/plastitanium,
 /area/ship/hallway)
-"SY" = (
-/obj/structure/cable{
-	icon_state = "0-1"
-	},
-/obj/machinery/door/poddoor{
-	id = "thruster_shutters"
-	},
-/obj/machinery/power/shuttle/engine/fueled/plasma{
-	dir = 1
-	},
-/obj/machinery/atmospherics/components/unary/outlet_injector/on/layer4{
-	dir = 1
-	},
-/turf/open/floor/plating,
-/area/ship/engineering/engine)
 "Ta" = (
 /turf/open/floor/plasteel/tech/techmaint,
 /area/ship/hallway/port)
@@ -8161,7 +8161,7 @@ Hj
 uR
 bD
 Tj
-SY
+OS
 rF
 UV
 UV
@@ -8516,7 +8516,7 @@ UV
 UV
 UV
 UV
-dq
+Gm
 "}
 (22,1,1) = {"
 In
@@ -9305,7 +9305,7 @@ UP
 UP
 UP
 lp
-GS
+RO
 Fn
 Fn
 Fn
