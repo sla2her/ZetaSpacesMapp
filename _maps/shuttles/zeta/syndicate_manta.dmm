@@ -494,6 +494,15 @@
 /obj/machinery/rnd/production/protolathe/department/science,
 /turf/open/floor/plasteel/rockvault,
 /area/ship/science)
+"dq" = (
+/obj/docking_port/mobile{
+	launch_status = 0;
+	name = "Manta";
+	preferred_direction = 4;
+	port_direction = 8
+	},
+/turf/template_noop,
+/area/template_noop)
 "dv" = (
 /obj/structure/closet/syndicate/personal{
 	req_access_txt = "58"
@@ -3742,6 +3751,9 @@
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer4{
 	dir = 8
 	},
+/obj/machinery/atmospherics/components/unary/outlet_injector/on/layer4{
+	dir = 1
+	},
 /turf/open/floor/mineral/plastitanium,
 /area/ship/cargo/port)
 "zz" = (
@@ -4708,6 +4720,13 @@
 "GP" = (
 /turf/open/floor/circuit/red/anim,
 /area/ship/science/robotics)
+"GS" = (
+/obj/machinery/door/airlock/hatch,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
+	dir = 8
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/ship/hallway)
 "GV" = (
 /obj/structure/window/plasma/reinforced,
 /obj/machinery/atmospherics/components/unary/shuttle/heater{
@@ -6298,6 +6317,21 @@
 	},
 /turf/open/floor/mineral/plastitanium,
 /area/ship/hallway)
+"SY" = (
+/obj/structure/cable{
+	icon_state = "0-1"
+	},
+/obj/machinery/door/poddoor{
+	id = "thruster_shutters"
+	},
+/obj/machinery/power/shuttle/engine/fueled/plasma{
+	dir = 1
+	},
+/obj/machinery/atmospherics/components/unary/outlet_injector/on/layer4{
+	dir = 1
+	},
+/turf/open/floor/plating,
+/area/ship/engineering/engine)
 "Ta" = (
 /turf/open/floor/plasteel/tech/techmaint,
 /area/ship/hallway/port)
@@ -6434,15 +6468,6 @@
 /obj/structure/window/reinforced,
 /turf/open/floor/mineral/plastitanium,
 /area/ship/hallway/fore)
-"Ub" = (
-/obj/docking_port/mobile{
-	launch_status = 0;
-	name = "Manta";
-	preferred_direction = 4;
-	port_direction = 8
-	},
-/turf/template_noop,
-/area/template_noop)
 "Uc" = (
 /obj/structure/cable{
 	icon_state = "1-4"
@@ -8136,7 +8161,7 @@ Hj
 uR
 bD
 Tj
-Lk
+SY
 rF
 UV
 UV
@@ -8491,7 +8516,7 @@ UV
 UV
 UV
 UV
-Ub
+dq
 "}
 (22,1,1) = {"
 In
@@ -9280,7 +9305,7 @@ UP
 UP
 UP
 lp
-xD
+GS
 Fn
 Fn
 Fn
