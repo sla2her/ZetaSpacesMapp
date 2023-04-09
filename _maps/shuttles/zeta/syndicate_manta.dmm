@@ -129,7 +129,7 @@
 /obj/machinery/button/door{
 	pixel_y = 25;
 	pixel_x = -1;
-	id = "left_wing_weapon";
+	id = "left_weapon";
 	name = "Left Wing Weapon"
 	},
 /obj/machinery/button/door{
@@ -6016,10 +6016,10 @@
 /turf/open/floor/mineral/plastitanium/red,
 /area/ship/security/armory)
 "Ri" = (
-/obj/effect/spawner/structure/window/plasma/reinforced/plastitanium,
 /obj/machinery/door/poddoor{
-	id = "right_wing_weapon"
+	id = "left_weapon"
 	},
+/obj/effect/spawner/structure/window/plasma/reinforced/plastitanium,
 /turf/open/floor/plating,
 /area/ship/hallway/port)
 "Rj" = (
@@ -8006,7 +8006,7 @@ UV
 UV
 fQ
 hB
-LJ
+fQ
 UV
 UV
 TB
@@ -8059,12 +8059,12 @@ UV
 UV
 fQ
 Jp
-LJ
+fQ
 UV
 UV
-LJ
+fQ
 vc
-LJ
+fQ
 UV
 TB
 SR
@@ -9173,7 +9173,7 @@ UV
 UV
 UV
 UV
-Ri
+Tu
 fw
 fw
 fw
@@ -9291,7 +9291,7 @@ UV
 UV
 UV
 UV
-Ri
+Tu
 fw
 ma
 Lj
@@ -9349,7 +9349,7 @@ UV
 UV
 UV
 UV
-Ri
+Tu
 fw
 ma
 On
