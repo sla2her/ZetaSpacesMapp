@@ -3320,7 +3320,6 @@
 "uQ" = (
 /obj/machinery/door/airlock/external,
 /obj/machinery/atmospherics/pipe/layer_manifold,
-/obj/machinery/door/firedoor,
 /turf/open/floor/plasteel/tech,
 /area/ship/hallway/central)
 "vi" = (
@@ -3533,10 +3532,6 @@
 /turf/open/floor/plasteel/white,
 /area/ship/medical)
 "wx" = (
-/obj/machinery/door/poddoor{
-	id = "ospreydoors";
-	name = "Cargo Bay Blast Door"
-	},
 /obj/effect/turf_decal/industrial/warning/fulltile,
 /obj/structure/cable{
 	icon_state = "0-8"
@@ -3544,6 +3539,10 @@
 /obj/machinery/power/shieldwallgen/atmos/roundstart{
 	id = "osprey_cargofield";
 	locked = 1
+	},
+/obj/machinery/door/poddoor{
+	id = "ospreydoors";
+	name = "Cargo Bay Blast Door"
 	},
 /turf/open/floor/plasteel/tech,
 /area/ship/cargo)
@@ -5086,11 +5085,11 @@
 /turf/open/floor/plasteel/patterned/grid,
 /area/ship/engineering)
 "Gt" = (
+/obj/effect/turf_decal/industrial/warning/fulltile,
 /obj/machinery/door/poddoor{
 	id = "ospreydoors";
 	name = "Cargo Bay Blast Door"
 	},
-/obj/effect/turf_decal/industrial/warning/fulltile,
 /turf/open/floor/plasteel/tech,
 /area/ship/cargo)
 "Gu" = (
@@ -6294,10 +6293,6 @@
 /turf/open/floor/plasteel/patterned/grid,
 /area/ship/cargo)
 "Os" = (
-/obj/machinery/door/poddoor{
-	id = "ospreydoors";
-	name = "Cargo Bay Blast Door"
-	},
 /obj/effect/turf_decal/industrial/warning/fulltile,
 /obj/structure/cable{
 	icon_state = "0-8"
@@ -6306,6 +6301,10 @@
 	dir = 1;
 	id = "osprey_cargofield";
 	locked = 1
+	},
+/obj/machinery/door/poddoor{
+	id = "ospreydoors";
+	name = "Cargo Bay Blast Door"
 	},
 /turf/open/floor/plasteel/tech,
 /area/ship/cargo)
@@ -7578,7 +7577,6 @@
 	},
 /obj/machinery/door/airlock/external,
 /obj/machinery/atmospherics/pipe/layer_manifold,
-/obj/machinery/door/firedoor,
 /turf/open/floor/plasteel/tech,
 /area/ship/hallway/central)
 "Ws" = (
