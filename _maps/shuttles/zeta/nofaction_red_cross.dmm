@@ -463,6 +463,9 @@
 /obj/machinery/light{
 	dir = 1
 	},
+/obj/structure/closet/wall/orange{
+	pixel_y = 30
+	},
 /turf/open/floor/plasteel/tech/techmaint,
 /area/ship/engineering/engine)
 "ik" = (
@@ -486,6 +489,9 @@
 	},
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer4{
 	dir = 4
+	},
+/obj/structure/closet/wall/orange{
+	pixel_y = 30
 	},
 /turf/open/floor/plasteel/tech/techmaint,
 /area/ship/engineering/engine)
@@ -888,6 +894,9 @@
 	},
 /obj/structure/cable{
 	icon_state = "2-4"
+	},
+/obj/machinery/sleeper{
+	dir = 4
 	},
 /turf/open/floor/glass,
 /area/ship/medical/surgery)
@@ -1446,6 +1455,9 @@
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
 	dir = 8
 	},
+/obj/structure/closet/wall/orange{
+	pixel_y = 30
+	},
 /turf/open/floor/plasteel/tech/techmaint,
 /area/ship/engineering/electrical)
 "yT" = (
@@ -1517,12 +1529,7 @@
 /turf/open/floor/circuit/green/anim,
 /area/ship/bridge)
 "AP" = (
-/obj/effect/turf_decal/box,
-/obj/effect/turf_decal/corner/opaque/red/border{
-	dir = 1
-	},
 /obj/machinery/rnd/production/protolathe/department/cargo,
-/obj/machinery/light,
 /turf/open/floor/plasteel/mono/dark,
 /area/ship/hallway/central)
 "AS" = (
@@ -1973,18 +1980,6 @@
 	},
 /turf/open/floor/plasteel/tech/techmaint,
 /area/ship/engineering/electrical)
-"HD" = (
-/obj/effect/turf_decal/box,
-/obj/effect/turf_decal/corner/opaque/red/border{
-	dir = 1
-	},
-/obj/machinery/mineral/ore_redemption{
-	input_dir = 4;
-	output_dir = 8;
-	dir = 4
-	},
-/turf/open/floor/plasteel/mono/dark,
-/area/ship/hallway/central)
 "HJ" = (
 /obj/machinery/rnd/production/techfab/department/medical,
 /turf/open/floor/plasteel/mono/white,
@@ -2124,6 +2119,9 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
 	dir = 4
+	},
+/obj/structure/closet/wall/orange{
+	pixel_y = 30
 	},
 /turf/open/floor/plasteel/tech/techmaint,
 /area/ship/engineering/engine)
@@ -2619,6 +2617,11 @@
 "QC" = (
 /obj/effect/turf_decal/corner/opaque/red/border,
 /obj/effect/turf_decal/box,
+/obj/machinery/mineral/ore_redemption{
+	input_dir = 4;
+	output_dir = 8;
+	dir = 4
+	},
 /turf/open/floor/plasteel/mono/dark,
 /area/ship/hallway/central)
 "QF" = (
@@ -2634,8 +2637,11 @@
 /turf/open/floor/plasteel/tech/techmaint,
 /area/ship/engineering/electrical)
 "QK" = (
-/turf/open/space/basic,
-/area/template_noop)
+/obj/effect/turf_decal/corner/opaque/red/border,
+/obj/effect/turf_decal/box,
+/obj/structure/tank_dispenser/oxygen,
+/turf/open/floor/plasteel/mono/dark,
+/area/ship/hallway/central)
 "QQ" = (
 /turf/closed/wall/mineral/titanium,
 /area/ship/hallway/fore)
@@ -2692,6 +2698,9 @@
 	},
 /obj/structure/cable{
 	icon_state = "4-8"
+	},
+/obj/structure/closet/wall/orange{
+	pixel_y = 30
 	},
 /turf/open/floor/plasteel/tech/techmaint,
 /area/ship/engineering/engine)
@@ -3010,7 +3019,6 @@
 /area/ship/medical)
 "Xt" = (
 /obj/effect/turf_decal/box,
-/obj/structure/tank_dispenser/oxygen,
 /obj/effect/turf_decal/corner/opaque/red/border,
 /turf/open/floor/plasteel/mono/dark,
 /area/ship/hallway/central)
@@ -3351,7 +3359,7 @@ xW
 yf
 ss
 ss
-HD
+IA
 XX
 Wr
 XX
@@ -3488,7 +3496,7 @@ xW
 xW
 xW
 xW
-QC
+QK
 bz
 LC
 wW
@@ -3561,8 +3569,8 @@ yh
 sN
 Ot
 ro
+IA
 AP
-dG
 dG
 dG
 dG
@@ -3798,7 +3806,7 @@ Ow
 rP
 Fx
 wR
-Kg
+wR
 Kg
 Kg
 Kg
@@ -3909,7 +3917,7 @@ KS
 KS
 KS
 KS
-QK
+KS
 KS
 KS
 KS
