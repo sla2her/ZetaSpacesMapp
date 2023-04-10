@@ -3,6 +3,7 @@
 	"map_name": "Abductors' Mothership-class object",
 	"prefix": "UFO",
 	"cost": 0,
+	"limit": 1,
 	"namelists": [
 		"GENERAL",
 		"SPACE"
