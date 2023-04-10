@@ -4,7 +4,11 @@
 	"prefix": "SSV",
 	"namelists": ["GENERAL", "MERCANTILE", "WEAPONS"],
 	"map_short_name": "Buggy (D)",
+<<<<<<< Updated upstream
 	"map_path": "_maps/shuttles/zeta/syndicate_buggy.dmm",
+=======
+	"map_path": "_maps/shuttles/zeta/syndiecate_buggy.dmm",
+>>>>>>> Stashed changes
 	"cost": 0,
 	"job_slots": {
 		"Captain": {
@@ -13,9 +17,17 @@
 			"slots": 1
 		},
 		"Security Officer": {
+<<<<<<< Updated upstream
 			"outfit": "/datum/outfit/job/security/syndicate/gorlex",
 			"slots": 1
 		}
 	},
+=======
+			"outfit": "/datum/outfit/job/security/corporate",
+			"slots": 1
+
+		}
+	}
+>>>>>>> Stashed changes
 	"enabled": true
 }
