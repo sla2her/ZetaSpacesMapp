@@ -1337,7 +1337,13 @@
 /turf/closed/wall/mineral/titanium/nodiagonal,
 /area/ship/medical)
 "wW" = (
-/obj/effect/turf_decal/corner/opaque/red/border,
+/obj/structure/closet/crate/medical,
+/obj/item/storage/firstaid/fire,
+/obj/item/reagent_containers/glass/bottle/morphine,
+/obj/item/reagent_containers/syringe,
+/obj/effect/turf_decal/corner/opaque/red/border{
+	dir = 1
+	},
 /obj/effect/turf_decal/box,
 /turf/open/floor/plasteel/mono/dark,
 /area/ship/hallway/central)
@@ -2435,6 +2441,20 @@
 	},
 /turf/open/floor/glass,
 /area/ship/medical/surgery)
+"Oh" = (
+/obj/effect/turf_decal/box,
+/obj/structure/sign/poster/official/random{
+	pixel_y = 32
+	},
+/obj/machinery/light{
+	dir = 1
+	},
+/obj/effect/turf_decal/corner/opaque/red/border,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
+	dir = 8
+	},
+/turf/open/floor/plasteel/mono/dark,
+/area/ship/hallway/central)
 "Ol" = (
 /turf/closed/wall/mineral/titanium,
 /area/ship/bridge)
@@ -2597,17 +2617,8 @@
 /turf/open/floor/plasteel/tech/techmaint,
 /area/ship/engineering/electrical)
 "QC" = (
-/obj/effect/turf_decal/box,
-/obj/structure/sign/poster/official/random{
-	pixel_y = 32
-	},
-/obj/machinery/light{
-	dir = 1
-	},
 /obj/effect/turf_decal/corner/opaque/red/border,
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
-	dir = 8
-	},
+/obj/effect/turf_decal/box,
 /turf/open/floor/plasteel/mono/dark,
 /area/ship/hallway/central)
 "QF" = (
@@ -2622,6 +2633,9 @@
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
 /turf/open/floor/plasteel/tech/techmaint,
 /area/ship/engineering/electrical)
+"QK" = (
+/turf/open/space/basic,
+/area/template_noop)
 "QQ" = (
 /turf/closed/wall/mineral/titanium,
 /area/ship/hallway/fore)
@@ -3439,7 +3453,7 @@ JO
 dI
 dN
 xW
-wW
+QC
 bz
 LC
 UO
@@ -3474,10 +3488,10 @@ xW
 xW
 xW
 xW
-wW
+QC
 bz
 LC
-IA
+wW
 hL
 Ky
 Hd
@@ -3754,7 +3768,7 @@ Dd
 ik
 SW
 wR
-QC
+Oh
 ss
 ss
 IN
@@ -3895,7 +3909,7 @@ KS
 KS
 KS
 KS
-KS
+QK
 KS
 KS
 KS
