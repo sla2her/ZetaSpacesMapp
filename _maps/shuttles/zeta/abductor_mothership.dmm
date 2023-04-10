@@ -104,12 +104,11 @@
 "A" = (
 /obj/machinery/power/terminal,
 /obj/structure/cable,
-/obj/structure/table/abductor,
 /obj/machinery/light{
 	dir = 8;
 	light_color = "#511bb5"
 	},
-/obj/item/storage/box/alienhandcuffs,
+/obj/machinery/rnd/server,
 /turf/open/floor/mineral/abductor,
 /area/ship/bridge)
 "B" = (
@@ -167,6 +166,7 @@
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
 	dir = 1
 	},
+/obj/machinery/rnd/production/circuit_imprinter,
 /turf/open/floor/mineral/abductor,
 /area/ship/bridge)
 "R" = (
@@ -185,6 +185,7 @@
 	dir = 4;
 	light_color = "#511bb5"
 	},
+/obj/item/storage/box/alienhandcuffs,
 /turf/open/floor/mineral/abductor,
 /area/ship/bridge)
 "V" = (
@@ -197,6 +198,7 @@
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
 	dir = 5
 	},
+/obj/machinery/rnd/production/protolathe,
 /turf/open/floor/mineral/abductor,
 /area/ship/bridge)
 "W" = (
@@ -213,6 +215,9 @@
 	icon_state = "0-4"
 	},
 /obj/machinery/power/apc/auto_name/south,
+/obj/machinery/computer/rdconsole{
+	dir = 1
+	},
 /turf/open/floor/mineral/abductor,
 /area/ship/bridge)
 "Z" = (
