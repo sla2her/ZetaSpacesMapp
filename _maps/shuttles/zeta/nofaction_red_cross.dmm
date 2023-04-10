@@ -1098,6 +1098,9 @@
 	},
 /turf/open/floor/glass,
 /area/ship/bridge)
+"tc" = (
+/turf/closed/wall/mineral/titanium,
+/area/template_noop)
 "te" = (
 /obj/structure/table/glass,
 /obj/item/clothing/glasses/science,
@@ -3373,7 +3376,7 @@ fa
 "}
 (9,1,1) = {"
 KS
-KS
+tc
 Hk
 tH
 Rr
@@ -3408,7 +3411,7 @@ pi
 "}
 (10,1,1) = {"
 KS
-Ol
+mF
 Hk
 Hk
 Hk
@@ -3548,7 +3551,7 @@ pi
 "}
 (14,1,1) = {"
 KS
-Ol
+mF
 Hk
 Hk
 Hk
@@ -3583,7 +3586,7 @@ pi
 "}
 (15,1,1) = {"
 KS
-KS
+tc
 Hk
 eo
 YV
