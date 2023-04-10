@@ -1099,8 +1099,9 @@
 /turf/open/floor/glass,
 /area/ship/bridge)
 "tc" = (
-/turf/closed/wall/mineral/titanium,
-/area/template_noop)
+/obj/machinery/smartfridge/organ,
+/turf/open/floor/plasteel/mono/white,
+/area/ship/medical/surgery)
 "te" = (
 /obj/structure/table/glass,
 /obj/item/clothing/glasses/science,
@@ -1730,6 +1731,20 @@
 	},
 /turf/open/floor/plasteel/white,
 /area/ship/science)
+"EQ" = (
+/obj/effect/spawner/structure/window/shuttle,
+/obj/machinery/door/poddoor{
+	id = "shuttle_shutters"
+	},
+/obj/docking_port/mobile{
+	dir = 2;
+	launch_status = 0;
+	name = "Red Cross";
+	preferred_direction = 4;
+	port_direction = 4
+	},
+/turf/open/floor/plating,
+/area/ship/bridge)
 "ER" = (
 /obj/structure/cable{
 	icon_state = "4-8"
@@ -3353,7 +3368,7 @@ QY
 ub
 qY
 Oc
-xW
+tc
 ao
 wp
 lx
@@ -3376,7 +3391,7 @@ fa
 "}
 (9,1,1) = {"
 KS
-tc
+Ol
 Hk
 tH
 Rr
@@ -3480,7 +3495,7 @@ IC
 pi
 "}
 (12,1,1) = {"
-mF
+EQ
 XQ
 HR
 kf
@@ -3586,7 +3601,7 @@ pi
 "}
 (15,1,1) = {"
 KS
-tc
+Ol
 Hk
 eo
 YV
