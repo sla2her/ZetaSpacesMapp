@@ -1,6 +1,6 @@
 {
 	"$schema": "https://raw.githubusercontent.com/ZetaSingularity/ZetaSpaces/master/_maps/ship_config_schema.json",
-	"map_name": "Red Cross - Class F, Humanitarian Ship",
+	"map_name": "Red Cross Class F Humanitarian Ship",
 	"prefix": "HMS",
 	"namelists": ["GENERAL"],
 	"map_short_name": "Red Cross",
@@ -18,7 +18,6 @@
 			"outfit": "/datum/outfit/job/atmos",
 			"slots": 2
 		}
-		
 	},
 	"enabled": true
 }
