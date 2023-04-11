@@ -1,0 +1,23 @@
+{
+	"$schema": "https://raw.githubusercontent.com/ZetaSingularity/ZetaSpaces/master/_maps/ship_config_schema.json",
+	"map_name": "Red Cross Class F Humanitarian Ship",
+	"prefix": "HMS",
+	"namelists": ["GENERAL"],
+	"map_short_name": "Red Cross",
+	"map_path": "_maps/shuttles/zeta/nofaction_red_cross.dmm",
+	"cost": 0,
+	"job_slots": {
+		"Captain": 1,
+		"Chief Medical Officer": {
+            "outfit": "/datum/outfit/job/cmo/medicaldirector",
+            "officer": true,
+            "slots": 1
+        },
+		"Medical Doctor": 5,
+		"Ship Engineer": {
+			"outfit": "/datum/outfit/job/atmos",
+			"slots": 2
+		}
+	},
+	"enabled": true
+}
