@@ -4,7 +4,7 @@
 	"prefix": "HMS",
 	"namelists": ["GENERAL"],
 	"map_short_name": "Red Cross",
-	"map_path": "_maps\shuttles\zeta\nofaction_red_cross.dmm",
+	"map_path": "_maps/shuttles/zeta/nofaction_red_cross.dmm",
 	"cost": 0,
 	"job_slots": {
 		"Captain": 1,
