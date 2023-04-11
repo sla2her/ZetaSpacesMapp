@@ -120,6 +120,13 @@
 	},
 /turf/open/floor/plating,
 /area/ship/hallway/aft)
+"dk" = (
+/obj/effect/spawner/structure/window/shuttle,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
+	dir = 1
+	},
+/turf/open/floor/plating,
+/area/ship/engineering/electrical)
 "do" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
 	dir = 5
@@ -197,11 +204,11 @@
 /turf/open/floor/plasteel/white,
 /area/ship/medical)
 "ew" = (
-/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
-	dir = 6
-	},
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
 	dir = 6
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
+	dir = 10
 	},
 /turf/open/floor/plasteel/tech/techmaint,
 /area/ship/engineering/electrical)
@@ -350,10 +357,10 @@
 /obj/structure/cable{
 	icon_state = "1-4"
 	},
-/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
-	dir = 9
-	},
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
+/obj/machinery/atmospherics/pipe/manifold/supply/visible/layer2{
+	dir = 4
+	},
 /turf/open/floor/plasteel/tech/techmaint,
 /area/ship/engineering/electrical)
 "gW" = (
@@ -370,7 +377,6 @@
 /area/ship/hallway/starboard)
 "hb" = (
 /obj/machinery/door/airlock/engineering,
-/obj/machinery/atmospherics/pipe/simple/orange/visible,
 /obj/machinery/atmospherics/pipe/simple/orange/visible,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
@@ -474,6 +480,15 @@
 	},
 /turf/open/floor/plasteel/white,
 /area/ship/medical)
+"io" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/manifold/supply/visible/layer2{
+	dir = 1
+	},
+/turf/open/floor/plasteel/mono/white,
+/area/ship/hallway/central)
 "iW" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 4
@@ -836,6 +851,9 @@
 	pixel_y = 3
 	},
 /obj/item/reagent_containers/food/snacks/canned/beans,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
+	dir = 1
+	},
 /turf/open/floor/plasteel/mono/dark,
 /area/ship/hallway/central)
 "oJ" = (
@@ -1149,8 +1167,8 @@
 /area/ship/hallway/central)
 "tu" = (
 /obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden/layer4,
-/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
-	dir = 10
+/obj/machinery/atmospherics/components/binary/pump/on/layer2{
+	dir = 1
 	},
 /turf/open/floor/plasteel/tech/techmaint,
 /area/ship/engineering/electrical)
@@ -1203,7 +1221,9 @@
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
 	dir = 8
 	},
-/obj/machinery/atmospherics/pipe/manifold4w/supply/hidden/layer2,
+/obj/machinery/atmospherics/components/binary/pump/layer2{
+	dir = 1
+	},
 /turf/open/floor/plasteel/tech/techmaint,
 /area/ship/engineering/electrical)
 "ub" = (
@@ -1280,6 +1300,9 @@
 	icon_state = "1-2"
 	},
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
+	dir = 4
+	},
 /turf/open/floor/plasteel/dark,
 /area/ship/science)
 "vi" = (
@@ -1340,6 +1363,9 @@
 /area/ship/hallway/central)
 "wJ" = (
 /obj/machinery/rnd/production/circuit_imprinter,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
+	dir = 1
+	},
 /turf/open/floor/plasteel/tech/techmaint,
 /area/ship/engineering/electrical)
 "wR" = (
@@ -1722,6 +1748,9 @@
 /area/ship/hallway/port)
 "Dx" = (
 /obj/machinery/rnd/production/protolathe/department/engineering,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
+	dir = 5
+	},
 /turf/open/floor/plasteel/tech/techmaint,
 /area/ship/engineering/electrical)
 "DD" = (
@@ -3603,9 +3632,9 @@ Ix
 ak
 fK
 bz
-LC
+io
 om
-xg
+dk
 wJ
 Dx
 TS
