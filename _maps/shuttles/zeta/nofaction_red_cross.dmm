@@ -1538,6 +1538,15 @@
 	},
 /turf/open/floor/circuit/green/anim,
 /area/ship/bridge)
+"AL" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer2{
+	dir = 1
+	},
+/turf/open/floor/plasteel/mono/white,
+/area/ship/hallway/central)
 "AP" = (
 /obj/machinery/rnd/production/protolathe/department/cargo,
 /turf/open/floor/plasteel/mono/dark,
@@ -2123,15 +2132,6 @@
 /obj/machinery/rnd/server,
 /turf/open/floor/circuit/green/anim,
 /area/ship/bridge)
-"Jb" = (
-/obj/structure/cable{
-	icon_state = "4-8"
-	},
-/obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer2{
-	dir = 1
-	},
-/turf/open/floor/plasteel/mono/white,
-/area/ship/hallway/central)
 "Jl" = (
 /obj/machinery/atmospherics/pipe/manifold/orange/visible{
 	dir = 1
@@ -2540,10 +2540,11 @@
 /turf/open/floor/plasteel/mono/white,
 /area/ship/medical)
 "OK" = (
-/obj/machinery/atmospherics/pipe/manifold/supply/visible/layer2{
+/obj/effect/spawner/structure/window/shuttle,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
 	dir = 1
 	},
-/turf/closed/wall/mineral/titanium,
+/turf/open/floor/plating,
 /area/ship/engineering/electrical)
 "Pn" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
@@ -2924,13 +2925,6 @@
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
 /turf/open/floor/plasteel/tech/techmaint,
-/area/ship/engineering/electrical)
-"Vy" = (
-/obj/effect/spawner/structure/window/shuttle,
-/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
-	dir = 1
-	},
-/turf/open/floor/plating,
 /area/ship/engineering/electrical)
 "Vz" = (
 /obj/machinery/iv_drip,
@@ -3632,9 +3626,9 @@ Ix
 ak
 fK
 bz
-Jb
+AL
 om
-Vy
+OK
 wJ
 Dx
 TS
@@ -3879,7 +3873,7 @@ jV
 tv
 tv
 IJ
-OK
+JZ
 dG
 dG
 dG
